@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.diamond {
+    position: fixed;
+    top: 50px;
+    left: 0%;
+    transform: translateX(-50%) rotate(360deg);
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transition: all 1s ease;
+}
+
+.diamond-content {
+    transform: rotate(-45deg);
+    color: white;
+    text-align: center;
+}
+
+.diamond p {
+    margin: 0;
+}
